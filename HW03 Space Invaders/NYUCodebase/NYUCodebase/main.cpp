@@ -366,6 +366,7 @@ int main(int argc, char *argv[]){
 			break;
 		case GAME:
 			renderGame(modelMatrix, &program, fontSheet, score, enemySprite, player);
+			break;
 		}
 
 		//Cleanup
